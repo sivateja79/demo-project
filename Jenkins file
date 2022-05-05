@@ -1,1 +1,10 @@
 Jenkins file
+def deploy to dev = "${dev}"
+def deploy to it = "${it}"
+def deploy to uat = "${uat}"
+def deploy to uat = "${uat2}"
+def deploy to prod = "${prod}"
+env.change_ticket number = "${chnage no}"
+env.change_ticket_task_id = "${chkno}"
+stages {
+  
